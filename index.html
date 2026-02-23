@@ -57,17 +57,18 @@
             <!-- Table Header / Title -->
             <div class="flex items-center gap-3 mb-8">
                 <span class="text-2xl">📊</span>
-                <h2 class="text-xl md:text-2xl font-bold text-white">الملخص الشهري للميزانية حسب الهدف</h2>
+                <h2 class="text-xl md:text-2xl font-bold text-white">الملخص اليومي والشهري للميزانية حسب الهدف</h2>
             </div>
 
             <!-- Table -->
             <div class="overflow-x-auto">
-                <table class="w-full text-right border-collapse min-w-[500px]">
+                <table class="w-full text-right border-collapse min-w-[600px]">
                     <thead>
                         <tr class="text-slate-400 text-sm md:text-base">
-                            <th class="font-semibold w-1/3 pr-4">المنصة</th>
-                            <th class="font-semibold w-1/3 text-center">الهدف</th>
-                            <th class="font-semibold w-1/3 text-left pl-4">ميزانية شهرية</th>
+                            <th class="font-semibold w-1/4 pr-4">المنصة</th>
+                            <th class="font-semibold w-1/4 text-center">الهدف</th>
+                            <th class="font-semibold w-1/4 text-center">ميزانية يومية</th>
+                            <th class="font-semibold w-1/4 text-left pl-4">ميزانية شهرية</th>
                         </tr>
                     </thead>
                     <tbody class="text-white text-base md:text-lg">
@@ -83,6 +84,7 @@
                                 </div>
                             </td>
                             <td class="text-center text-slate-300">ظهور وحجز</td>
+                            <td class="text-center font-bold text-slate-300">80 ريال</td>
                             <td class="text-left font-bold text-brand-blue pl-4">2000 ريال</td>
                         </tr>
 
@@ -100,6 +102,7 @@
                                 Get Directions
                                 <span class="block text-xs text-slate-400 mt-1">توجيه العملاء لزيارة المجمع</span>
                             </td>
+                            <td class="text-center font-bold text-slate-300">100 ريال</td>
                             <td class="text-left font-bold text-brand-blue pl-4">2500 ريال</td>
                         </tr>
 
@@ -114,6 +117,7 @@
                                 </div>
                             </td>
                             <td class="text-center text-slate-300">رسائل / حجز</td>
+                            <td class="text-center font-bold text-slate-300">100 ريال</td>
                             <td class="text-left font-bold text-brand-blue pl-4">2500 ريال</td>
                         </tr>
 
@@ -127,10 +131,18 @@
                     <div class="w-10 h-10 rounded-full bg-brand-emerald/20 flex items-center justify-center text-brand-emerald text-xl">
                         💰
                     </div>
-                    <span class="text-slate-300 font-bold text-lg">إجمالي الميزانية الشهرية المقترحة</span>
+                    <span class="text-slate-300 font-bold text-lg">إجمالي الميزانية المقترحة</span>
                 </div>
-                <div class="text-3xl font-black text-brand-emerald">
-                    7000 ريال
+                <div class="flex items-center gap-6">
+                    <div class="text-center">
+                        <span class="block text-xs text-slate-400 mb-1">يومياً</span>
+                        <div class="text-xl font-bold text-slate-300">280 ريال</div>
+                    </div>
+                    <div class="w-px h-10 bg-white/10 hidden sm:block"></div>
+                    <div class="text-center">
+                        <span class="block text-xs text-slate-400 mb-1">شهرياً</span>
+                        <div class="text-3xl font-black text-brand-emerald">7000 ريال</div>
+                    </div>
                 </div>
             </div>
 
